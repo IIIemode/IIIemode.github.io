@@ -1,0 +1,306 @@
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+body {
+  line-height: 1;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+nav ul,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+/* change colours to suit your needs */
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none;
+}
+/* change colours to suit your needs */
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
+del {
+  text-decoration: line-through;
+}
+abbr[title],
+dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* change border colour to suit your needs */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 1em 0;
+  padding: 0;
+}
+input,
+select {
+  vertical-align: middle;
+}
+html {
+  height: 100%;
+}
+body {
+  box-sizing: border-box;
+  height: 100%;
+  font-size: 1.4em;
+  line-height: 1.4em;
+}
+p,
+a,
+h1 {
+  font-family: 'Roboto Mono', monospace;
+}
+.wrap {
+  margin: 0 auto;
+  height: 100%;
+}
+header {
+  border-radius: 3px;
+  margin: 0 auto;
+  width: 90%;
+  min-width: 360px;
+  min-height: 50px;
+  background-color: #66A5B7;
+}
+header .logo {
+  cursor: pointer;
+  width: 60px;
+  height: 40px;
+  margin: 0 auto;
+  padding-top: 5px;
+}
+header .logo > img {
+  height: 100%;
+}
+.main {
+  min-width: 360px;
+  box-shadow: 0 0 40px #000;
+  margin: 0 auto;
+  width: 91%;
+  min-height: 100%;
+  position: relative;
+  background-color: #66A5B7;
+  display: flex;
+  justify-content: flex-start;
+}
+.main_nav {
+  cursor: pointer;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  z-index: 1;
+  background: url(http://localhost:8080/WebInterfaceDevelopment2017/public/img/src/images/arrow.png) 100% 100% no-repeat;
+  background-size: cover;
+}
+.main nav {
+  min-width: 170px;
+  width: 20%;
+  background-color: #EAD177;
+  z-index: 1;
+}
+.main nav .active {
+  box-shadow: 0 0 100px #fff;
+}
+.main nav .active a {
+  color: #fff;
+}
+.main nav > ul > li > a {
+  padding: 5px 0;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  color: #936140;
+  text-decoration: none;
+  border-bottom: 2px solid #2C2E54;
+}
+.main nav > ul > li > a:hover {
+  box-shadow: 0 0 100px #fff;
+  color: #fff;
+}
+.main_content {
+  width: 55%;
+  min-width: 320px;
+  background-color: #66A5B7;
+}
+.main_content h1 {
+  padding: 70px;
+  color: #B6F6FF;
+  text-shadow: #211D34 0 0 10px;
+}
+.main_content p {
+  color: #FCE464;
+  padding: 10px 50px;
+  text-shadow: #211D34 0 0 10px;
+}
+.main_content p a {
+  color: yellow;
+  text-shadow: #999 0 0 10px;
+  text-decoration: none;
+}
+.main_content p a:hover {
+  text-decoration: underline;
+}
+.main_content ul {
+  padding: 10px 50px;
+}
+.main_content a {
+  color: yellow;
+  text-shadow: #fff 0 0 10px;
+  text-decoration: none;
+}
+.main_content a:hover {
+  text-decoration: underline;
+}
+.main_image {
+  width: 25%;
+  min-width: 150px;
+  min-height: 100%;
+  background-color: #B1661F;
+  box-shadow: 0 0 40px #5045A1;
+  background: url(http://localhost:8080/WebInterfaceDevelopment2017/public/img/src/images/code.png) 100% 100% no-repeat;
+  background-size: cover;
+}
+footer {
+  min-width: 360px;
+  border-radius: 3px;
+  margin: 0 auto;
+  width: 90%;
+  min-height: 40px;
+  background-color: #66A5B7;
+}
+footer .copy {
+  text-align: center;
+  font-family: robotolight;
+  padding: 5px;
+  color: #2C2E54;
+  float: right;
+  padding-right: 10%;
+}
+@media screen and (max-width: 700px) {
+  .main nav {
+    display: none;
+  }
+  .main_content {
+    width: 100%;
+    left: 0;
+  }
+  .main_image {
+    display: none;
+  }
+}
