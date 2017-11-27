@@ -261,7 +261,6 @@ header .logo > img {
 }
 .main_content a {
   color: yellow;
-  text-shadow: #fff 0 0 10px;
   text-decoration: none;
 }
 .main_content a:hover {
